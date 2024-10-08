@@ -1,0 +1,17 @@
+nav {
+  background-color: $error-color;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    li {
+      padding: 10px;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
